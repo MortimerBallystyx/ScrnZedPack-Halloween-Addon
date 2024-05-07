@@ -1,7 +1,7 @@
 //-----------------------------------------------------------
 //
 //-----------------------------------------------------------
-class HuskOLDH extends ZedBaseHusk;
+class HuskOLDH extends HuskC;
 
 #exec OBJ LOAD FILE=KF_EnemiesFinalSnd_CIRCUS.uax
 
