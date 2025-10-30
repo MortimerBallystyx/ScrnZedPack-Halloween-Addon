@@ -1,7 +1,7 @@
 //-----------------------------------------------------------
 //
 //-----------------------------------------------------------
-class BossOLDH extends ZedBaseBoss;
+class HardPatOLDH extends HardPat;
 
 #exec OBJ LOAD FILE=KF_EnemiesFinalSnd_CIRCUS.uax
 #exec OBJ LOAD FILE=KF_Specimens_Trip_HALLOWEEN_Old.utx
@@ -11,11 +11,11 @@ simulated function CloakBoss()
 	local Controller C;
 	local int Index;
 
-        // No cloaking if zapped
-        if( bZapped )
-        {
-                return;
-        }
+	 // No cloaking if zapped
+    if( bZapped )
+    {
+        return;
+    }
 
 	if ( bSpotted )
 	{
@@ -172,7 +172,7 @@ defaultproperties
      DetachedHeadClass=Class'ScrnHalloween2011Zeds.SeveredHeadPatriarch_HALLOWEEN_OLD'
      HitSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Patriarch.Kev_Pain'
      DeathSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Patriarch.Kev_Death'
-     MenuName="Vampriarch"
+     MenuName="Hard Vampriarch"
      AmbientSound=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Patriarch.Kev_IdleLoop'
      Mesh=SkeletalMesh'KF_Freaks_Trip_HALLOWEEN_Old.Patriarch_Circus'
      Skins(0)=Combiner'KF_Specimens_Trip_HALLOWEEN_Old.Patriarch_Circus.Patriarch_Circus_CMB'
