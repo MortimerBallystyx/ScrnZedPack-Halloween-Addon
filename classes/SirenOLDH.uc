@@ -18,7 +18,7 @@ defaultproperties
 {
      MoanVoice=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.siren.Siren_Talk'
      JumpSound=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.siren.Siren_Jump'
-     DetachedHeadClass=Class'ScrnZedPack.SeveredHeadSiren_HALLOWEEN_OLD'
+     DetachedHeadClass=Class'ScrnHalloween2011Zeds.SeveredHeadSiren_HALLOWEEN_OLD'
      HitSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.siren.Siren_Pain'
      DeathSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.siren.Siren_Death'
      MenuName="Black Beard"

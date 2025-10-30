@@ -10,8 +10,8 @@ defaultproperties
      MoanVoice=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.GoreFast.Gorefast_Talk'
      MeleeAttackHitSound=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.GoreFast.Gorefast_HitPlayer'
      JumpSound=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.GoreFast.Gorefast_Jump'
-     DetachedArmClass=Class'ScrnZedPack.SeveredArmGorefast_HALLOWEEN_OLD'
-     DetachedLegClass=Class'ScrnZedPack.SeveredLegGorefast_HALLOWEEN_OLD'
+     DetachedArmClass=Class'ScrnHalloween2011Zeds.SeveredArmGorefast_HALLOWEEN_OLD'
+     DetachedLegClass=Class'ScrnHalloween2011Zeds.SeveredLegGorefast_HALLOWEEN_OLD'
      bHeadGibbed=True
      HitSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.GoreFast.Gorefast_Pain'
      DeathSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.GoreFast.Gorefast_Death'

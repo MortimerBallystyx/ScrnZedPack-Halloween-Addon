@@ -24,9 +24,9 @@ defaultproperties
      MoanVoice=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Fleshpound.FP_Talk'
      MeleeAttackHitSound=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Fleshpound.FP_HitPlayer'
      JumpSound=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Fleshpound.FP_Jump'
-     DetachedArmClass=Class'ScrnZedPack.SeveredArmPound_HALLOWEEN_OLD'
-     DetachedLegClass=Class'ScrnZedPack.SeveredLegPound_HALLOWEEN_OLD'
-     DetachedHeadClass=Class'ScrnZedPack.SeveredHeadPound_HALLOWEEN_OLD'
+     DetachedArmClass=Class'ScrnHalloween2011Zeds.SeveredArmPound_HALLOWEEN_OLD'
+     DetachedLegClass=Class'ScrnHalloween2011Zeds.SeveredLegPound_HALLOWEEN_OLD'
+     DetachedHeadClass=Class'ScrnHalloween2011Zeds.SeveredHeadPound_HALLOWEEN_OLD'
      HitSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Fleshpound.FP_Pain'
      DeathSound(0)=SoundGroup'KF_EnemiesFinalSnd_CIRCUS.Fleshpound.FP_Death'
      MenuName="Frankenpound"
